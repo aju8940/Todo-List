@@ -1,0 +1,89 @@
+.container {
+    background-color: rgb(18, 87, 119);
+    margin-top: 150px;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.input {
+    border-radius: 1rem;
+    width: 300px;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+}
+
+.form-control {
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+.todo {
+    text-align: center;
+    font-style: italic;
+}
+
+button {
+    margin-left: 10px;
+    background-color: rgb(55, 116, 196);
+    color: white;
+    border-radius: 1rem;
+    max-height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.list {
+    margin-top: 30px !important;
+    margin-bottom: 15px;
+    margin-left: -12px;
+    color: white;
+}   
+li {
+    margin-bottom: 15px;
+    margin-left: -12px;
+    border: none;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    display: list-item;
+    list-style: none;
+    padding: 10px;
+}
+
+.list-items {
+    display: flex;
+}
+
+.list-items .list-item-list {
+    flex: 1;
+}
+
+.list-items .list-item-icons {
+    font-size: larger;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#complete {
+    color: greenyellow;
+}
+
+#delete {
+    color: red;
+}
+
+#list-item {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
